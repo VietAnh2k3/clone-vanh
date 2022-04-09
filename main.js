@@ -55,7 +55,7 @@ document.addEventListener('scroll',function(){
         const navY = navBlock[i].getBoundingClientRect().y;
         const navBottom = navBlock[i].getBoundingClientRect().bottom;
 
-        if((navBottom < navHeight) && (navBottom > 0)){
+        if((navBottom - 1 <= navHeight) && (navBottom > 1)){
             headerNav[i].style.color = 'var(--primary-color)';
         }else{
             headerNav[i].style.color = 'var(--white-color)';
