@@ -8,10 +8,6 @@
         padding: 0;
     }
 
-    .started__calenda{
-        border: none;
-        padding-left: 0;
-    }
     
     .calenda__tablet{
         display: block;
@@ -53,6 +49,10 @@
 
     .header__navbar-icon{
         display: inline-block;
+    }
+    .started__calenda{
+        border: none;
+        padding-left: 0;
     }
     .contact__map{
         
