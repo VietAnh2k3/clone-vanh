@@ -28,18 +28,26 @@
                     <div class="header__navbar-band">
                         <a class="link" href="">Gymso Fitness</a>
                     </div>
-                    <div class="header__navbar">
-                        <ul class="header__navbar-list">
-                            <li class="header__navbar-item"><a class="link" href="">Home</a></li>
-                            <li class="header__navbar-item"><a class="link" href="#about">About us</a></li>
-                            <li class="header__navbar-item"><a class="link" href="#classes">Classes</a></li>
-                            <li class="header__navbar-item"><a class="link" href="">Schedules</a></li>
-                            <li class="header__navbar-item"><a class="link" href="">Contact</a></li>
+
+                    <div class="header__navbar-icon ">
+                        <i class="fas fa-list"></i>
+                    </div>
+
+                    <div class="header__navbar hide-on-tablet-mobile">
+
+                        
+
+                        <ul class="header__navbar-list ">
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href="">Home</a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href="#about">About us</a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href="#classes">Classes</a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href="#calenda">Schedules</a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href="#contact">Contact</a></li>
                         </ul>
                         <ul class="header__navbar-list">
-                            <li class="header__navbar-item"><a class="link" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="header__navbar-item"><a class="link" href=""><i class="fab fa-twitter"></i></a></li>
-                            <li class="header__navbar-item"><a class="link" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li class="header__navbar-item"><a class="link header__navbar-item--link" href=""><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,32 +71,39 @@
         </div>
 
         <div class="container">
-            <div id="started" class="js-block">
+            <div id="started" >
                 <div class="grid wide">
-                    <section class="started__content row">
-                        <div class="col l-5 started__content-item">
-                            <div class="started__info">
-                                <div class="">
-                                    <h2 class="started__header js-effectslide-1">New to the gymso?</h2>
-                                    <div class="started__info-sale js-effectslide-1-first">Your membership is up to 2 months FREE ($62.50 per month)</div>
-
-                                </div>
-                                <div class="started__decs js-effectslide-2">Gymso is free HTML template by <a class="link" href="">Tooplate</a> for your commercial website. Bootstrap v4.2.1 Layout. Feel free to use it.</div>
+                    <section class="started__content  row">
+                        <div class="col l-5 m-5 c-12 started__content-item ">
+                            <div class="started__info js-block">
+                                <h2 class="started__header js-effectslide-1 time-effect-3">New to the gymso?</h2>
+                                <div class="started__info-sale js-effectslide-2 delay-1 time-effect-5">Your membership is up to 2 months FREE ($62.50 per month)</div>
+                                <div class="started__decs js-effectslide-3 delay-3 time-effect-5">Gymso is free HTML template by <a class="link" href="">Tooplate</a> for your commercial website. Bootstrap v4.2.1 Layout. Feel free to use it.</div>
                                 
                             </div>
-                            <div class="js-effectslide-3">
-                                <div class="started__info-btn btn ">become a member today</div>
+                            <div class="js-block">
+                                <div class=" js-effectslide-1 delay-3 time-effect-7">
+                                    <div class="started__info-btn btn">become a member today</div>
+                                </div>
+                                <div class="js-effectslide-2 no-effect"></div>
+                                <div class="js-effectslide-3 no-effect"></div>
                             </div>
                         </div>
-                        <div class="col l-4 started__content-item">
+                        <div class="col l-4 m-5 c-12 started__content-item">
                             <div class="started__calenda">
-                                <h2 class="started__header js-effectslide-1-first">Working hours</h2> 
-                                <div class="started__calenda-time js-effectslide-2-first">Sunday : Closed</div>
+                                
+                                <div class="js-block">
+                                    <h2 class="started__header js-effectslide-1 time-effect-3">Working hours</h2> 
+                                    <div class="started__calenda-time js-effectslide-2 delay-1 time-effect-5 time-effect-5">Sunday : Closed</div>
+                                    <div class="started__calenda-time js-effectslide-3 delay-3 time-effect-7">Monday - Friday</div>
+                                </div>
 
-                                <div class="started__calenda-time js-effectslide-2-first">Monday - Friday</div>
-                                <div class="started__decs js-effectslide-3-first">7:00 AM - 10:00 PM</div>
-
-                                <div class="started__calenda-time js-effectslide-3-first">Saturday</div>
+                                
+                                <div class="js-block">
+                                    <div class="started__decs js-effectslide-1 delay-5 time-effect-5">7:00 AM - 10:00 PM</div>
+                                    <div class="started__calenda-time js-effectslide-2 delay-5 time-effect-5">Saturday</div>
+                                    <div class="started__decs js-effectslide-3 delay-5 time-effect-5">7:00 AM - 10:00 PM</div>
+                                </div>
                                 
                             </div>
                             
@@ -101,18 +116,18 @@
             <div id="about" class="block">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="about__content col l-6">
-                            <h2 class="about__content-header">Hello, we are Gymso</h2>
-                            <div class="about__content-decs">You are NOT allowed to redistribute this HTML template downloadable ZIP file on any template collection site. You are allowed to use this template for your personal or business websites.</div>
-                            <div class="about__content-info">
+                        <div class="about__content col l-6 m-12 js-block">
+                            <h2 class="about__content-header js-effectslide-1 time-effect-5">Hello, we are Gymso</h2>
+                            <div class="about__content-decs js-effectslide-2 delay-3 time-effect-5">You are NOT allowed to redistribute this HTML template downloadable ZIP file on any template collection site. You are allowed to use this template for your personal or business websites.</div>
+                            <div class="about__content-info js-effectslide-3 delay-3 time-effect-7">
                                 If you have any question regarding <a class="link" href="">Gymso Fitness HTML template</a>, you can <a class="link" href="">contact Tooplate</a> immediately. Thank you.
-
                             </div>
+
                         </div>
 
-                        <div class="col l-3">
-                            <div class="about__us">
-                                <div class="about__leader">
+                        <div class="col l-3 m-6">
+                            <div class="about__us js-block">
+                                <div class="about__leader js-effectslide-3 time-effect-5">
                                     <img src="./assets/img/team/team-image.jpg" alt="" class="about__leader-img">
                                     <div class="about__leader-info">
                                         <div class="about__leader-name">
@@ -126,11 +141,14 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="js-effectslide-2 no-effect"></div>
+                                <div class="js-effectslide-1 no-effect"></div>
+
                             </div>
                         </div>
-                        <div class="col l-3">
-                            <div class="about__us">
-                                <div class="about__leader">
+                        <div class="col l-3 m-6">
+                            <div class="about__us js-block">
+                                <div class="about__leader js-effectslide-3 delay-1 time-effect-5">
                                     <img src="./assets/img/team/team-image01.jpg" alt="" class="about__leader-img">
                                     <div class="about__leader-info">
                                         <div class="about__leader-name">
@@ -144,6 +162,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="js-effectslide-2 no-effect"></div>
+                                <div class="js-effectslide-1 no-effect"></div>
                             </div>
                         </div>
                     </div>
@@ -154,23 +174,27 @@
             <div id="classes" class="block">
                 <div class="grid wide">
                     <div class="classes__content">
-                        <div class="content__header">
-                            <span>Get A Perfect Body</span>
-                            <h2>Our Training Classes</h2>
+                        <div class="content__header js-block">
+                            <div class="js-effectslide-1 no-effect"></div>
+                            <p class="js-effectslide-2 time-effect-5 delay-3" >Get A Perfect Body</p>
+                            <h2 class="js-effectslide-3 time-effect-5 delay-5" >Our Training Classes</h2>
                         </div>
 
                         <div class="classes__content-team">
-                            <div class=" col l-4">
-                                <div class="classes__content-team--item">
+                            <div class=" col l-4 m-6 c-12 js-block">
+                                <div class="classes__content-team--item js-effectslide-3 time-effect-5">
                                     <img src="./assets/img/class/cardio-class.jpg" alt="" class="classes__content-team--img">
                                     <div class="classes__content-info">
                                         <h3>Yoga</h3>
                                         <p class="classes__content-info--leader"><span>Trained by</span> - Bella</p>
                                         <div class="classes__content-info--decs">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                                    </div></div>
+                                    </div>
+                                </div>
+                                <div class="js-effectslide-1"></div>
+                                <div class="js-effectslide-2"></div>
                             </div>
-                            <div class=" col l-4">
-                                <div class="classes__content-team--item">
+                            <div class=" col l-4 m-6 c-12 js-block">
+                                <div class="classes__content-team--item js-effectslide-3 delay-1 time-effect-5">
                                     <img src="./assets/img/class/crossfit-class.jpg" alt="" class="classes__content-team--img">
                                     <div class="classes__content-info">
                                         <h3>Yoga</h3>
@@ -178,16 +202,23 @@
                                         <div class="classes__content-info--decs">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
                                     </div>
                                 </div>
+                                <div class="js-effectslide-1"></div>
+                                <div class="js-effectslide-2"></div>
+
                             </div>
-                            <div class=" col l-4">
-                                <div class="classes__content-team--item">
+                            <div class=" col l-4 m-6 c-12 js-block">
+                                <div class="classes__content-team--item js-effectslide-3 delay-2 time-effect-5">
                                     <img src="./assets/img/class/yoga-class.jpg" alt="" class="classes__content-team--img">
                                     <div class="classes__content-info">
                                         <h3>Yoga</h3>
                                         <p class="classes__content-info--leader"><span>Trained by</span> - Bella</p>
                                         <div class="classes__content-info--decs">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
                                     </div>
+                                <div class=""></div>
                                 </div>
+                                <div class="js-effectslide-1"></div>
+                                <div class="js-effectslide-2"></div>
+
                             </div>
                         </div>
                     </div>
@@ -197,62 +228,166 @@
             <div id="calenda" class="block">
                 <div class="grid wide">
                     <div class="calenda__content">
-                        <div class="content__header calenda__header" >
-                            <span>our weekly GYM schedules</span>
-                            <h2>Workout Timetable</h2>
+                        <div class="content__header calenda__header js-block" >
+                            <div class="js-effectslide-1 no-effect"></div>
+                            <p class="js-effectslide-2 time-effect-5">our weekly GYM schedules</p>
+                            <h2 class="js-effectslide-3 time-effect-5 delay-2">Workout Timetable</h2>
                         </div>
 
-                        <table class="calenda__tablet">
-                            <tr>
-                                <th><i class="calenda__tablet-icon far fa-calendar-alt"></i></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                        </table>
+                        <div class="calenda__time">
+                            <div class="calenda__block js-block">
+                                <table class="calenda__tablet js-effectslide-2 time-effect-7 delay-1">
+                                    <tr>
+                                        <th><i class="calenda__tablet-icon far fa-calendar-alt"></i></th>
+                                    <th>MON</th>
+                                    <th>TUS</th>
+                                    <th>WED</th>
+                                    <th>THU</th>
+                                    <th>FRI</th>
+                                    <th>SAT</th>
+                                    </tr>
+                                    <tr>
+                                        <th>7:00 AM</th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th></th>
+                                        <th></th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <th>9:00 AM</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <th>11:00 AM</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th></th>
+                                        <th></th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>2:00 PM</th>
+                                        <th></th>
+                                        <th>
+                                            <h6>Cardio</h6>
+                                            <span>7:00 AM - 9:00 AM</span>
+                                        </th>
+                                        <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    
+                                    </tr>
+                                </table>
+                                <div class="js-effectslide-1"></div>
+                                <div class="js-effectslide-3"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div id="contact" class="block">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6">
+                            <div class="contact__info content__header js-block">
+                                <h2 class="contact_header js-effectslide-1 time-effect-5">Feel free to ask anything</h2>
+                                <div class="content__header-input js-effectslide-2 time-effect-5 delay-1">
+                                    <form action="">
+                                        <input class="content__header-input--text" type="text" name="" placeholder="Name" id="">
+                                        <input class="content__header-input--text" type="email" name="" placeholder="Email" id="">
+                                        <textarea class="content__header-input--area"  name="" id="" placeholder="Mess" class="contact__header-input--mess" cols="30" rows="10"></textarea>
+
+                                        <input type="submit" class="btn btn_input" value="send message">
+                                    </form>
+                                </div>
+                                <div class="js-effectslide-3 no-effect"></div>
+                        
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="contact__map content__header js-block">
+                                <h2 class="contact_header js-effectslide-1 time-effect-5 ">Where you can find us</h2>
+
+                                <div class="contact__map-address js-effectslide-2 time-effect-5 delay-1">
+                                    <div class="contact_map-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact__map-address-info">120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</div>
+    
+                                </div>
+
+                                <div class="contact__map-sm js-effectslide-3 time-effect-5 delay-2">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7449.5487376572555!2d105.84270014973758!3d21.00167976447988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1649160939808!5m2!1sen!2s" width="400" height="300" class="contact__map-table"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                            
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
         </div>
+
+        <footer id="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-5">
+                        <div class="footer__decs">
+                            <p>Copyright © 2020 Gymso Fitness Co.<br> Design: Tooplate</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col l-7">
+                        <div class="footer__info">
+                            <div class="footer__info-cre">
+                                <i class="far fa-envelope"></i>
+                                <a href="">hello@company.com</a>
+                            </div>
+                            <div class="footer__info-cre">
+                                <i class="fab fa-telegram-plane"></i>
+                                <span>010-020-0840</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

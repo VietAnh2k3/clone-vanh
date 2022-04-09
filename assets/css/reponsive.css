@@ -1,14 +1,39 @@
 /* Mobile */
 @media (max-width:739px) {
+    
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__nav{
+        padding: 0;
+    }
 
+    .started__calenda{
+        border: none;
+        padding-left: 0;
+    }
+    
+    .calenda__tablet{
+        display: block;
+    }
 }
 
 /* Tablet */
 @media (min-width:740px) and (max-width:1239px) {
-
+    
+    .hide-on-tablet{
+        display: none;
+    }
 }
 
 /* Mobile and tablet */
 @media (max-width:1240px){
+    
+    .hide-on-tablet-mobile{
+        display: none;
+    }
 
+    .header__navbar-icon{
+        display: inline-block;
+    }
 }

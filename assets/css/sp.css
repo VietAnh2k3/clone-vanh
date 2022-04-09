@@ -1,36 +1,49 @@
 .js-effectslide-1{
     transform: translateY(100px);
     opacity: 0;
-    transition: all linear .6s;
+    transition-property: all;
+    transition-timing-function: linear;
 }
 .js-effectslide-2{
     transform: translateY(100px);
     opacity: 0;
-    transition: all linear .7s .3s;
+    transition-property: all;
+    transition-timing-function: linear;
 }
 .js-effectslide-3{
     transform: translateY(100px);
     opacity: 0;
-    transition: all linear .8s .3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    
    
 }
-.js-effectslide-1-first{
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all linear .6s .2s;
+
+.time-effect-3{
+   transition-duration: .3s; 
 }
-.js-effectslide-2-first{
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all linear .6s .2s;
+.time-effect-5{
+    transition-duration: .5s; 
+ }
+ .time-effect-7{
+    transition-duration: .7s; 
+ }
+
+.delay-1{
+    transition-delay:.1s ;
 }
-.js-effectslide-3-first{
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all linear .6s .2s;
+.delay-2{
+    transition-delay:.2s ;
 }
-.js-effectslide-2-first:nth-child(3){
-    transition-delay: .6s;
+.delay-3{
+    transition-delay:.3s ;
+}
+.delay-5{
+    transition-delay:.5s ;
+}
+
+.no-effect{
+    display: none;
 }
 
 
