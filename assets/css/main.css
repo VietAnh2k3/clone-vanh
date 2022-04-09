@@ -61,6 +61,10 @@
     transition: color .2s linear;
 }
 
+.header__navbar-item--link.focus{
+    color: var(--primary-color);
+}
+
 .header__navbar-list:nth-child(2) a{
     padding: 5px 8px;
     font-size: 1.8rem;

@@ -47,19 +47,19 @@ document.addEventListener('scroll',function(){
 
 
 
-document.addEventListener('scroll',function(){
+// document.addEventListener('scroll',function(){
 
-    var clientHeight = document.documentElement.clientHeight;
-    for(var i=0 ; i < navBlock.length ; i++){
-        const navHeight = navBlock[i].getBoundingClientRect().height;
-        const navY = navBlock[i].getBoundingClientRect().y;
-        const navBottom = navBlock[i].getBoundingClientRect().bottom;
+//     var clientHeight = document.documentElement.clientHeight;
+//     for(var i=0 ; i < navBlock.length ; i++){
+//         const navHeight = navBlock[i].getBoundingClientRect().height;
+//         const navY = navBlock[i].getBoundingClientRect().y;
+//         const navBottom = navBlock[i].getBoundingClientRect().bottom;
 
-        if((navBottom - 1 <= navHeight) && (navBottom > 1)){
-            headerNav[i].style.color = 'var(--primary-color)';
-        }else{
-            headerNav[i].style.color = 'var(--white-color)';
-        }
+//         if((navBottom - 1 <= navHeight) && (navBottom > 1)){
+//             headerNav[i].classList.add('.focus')
+//         }else{
+//             headerNav[i].classList.remove('.focus')
+//         }
 
-    }
-});
+//     }
+// });
