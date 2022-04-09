@@ -16,6 +16,16 @@
     .calenda__tablet{
         display: block;
     }
+
+    .contact__info{
+        margin-left: 0;
+    }
+    
+    .contact__map{
+        padding-left: 0px;
+        padding-top: 32px;
+        padding-right: 0;
+    }
     
     .footer__decs{
         text-align: center;
@@ -44,13 +54,8 @@
     .header__navbar-icon{
         display: inline-block;
     }
-    .contact__info{
-        margin-left: 0;
-    }
-    
     .contact__map{
-        padding-left: 0px;
-        padding-top: 32px;
+        
         padding-right: 0;
     }
 }
