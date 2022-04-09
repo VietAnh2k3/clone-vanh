@@ -4,7 +4,7 @@ const block = document.querySelectorAll('.js-block');
 const block1 = 'vanh';
 
 const navBlock = document.querySelectorAll('.block')
-const headerNav = document.querySelectorAll('.header__navbar-item--link')
+const headerNav = document.querySelectorAll('.js-link')
 
 const effectSlide_1 = document.querySelectorAll('.js-effectslide-1');
 const effectSlide_2 = document.querySelectorAll('.js-effectslide-2');
@@ -53,8 +53,9 @@ document.addEventListener('scroll',function(){
     for(var i=0 ; i < navBlock.length ; i++){
         const navHeight = navBlock[i].getBoundingClientRect().height;
         const navY = navBlock[i].getBoundingClientRect().y;
+        const navBottom = navBlock[i].getBoundingClientRect().bottom;
 
-        if((clientHeight > navY + navHeight) && (-navY < navHeight)){
+        if((navBottom < navHeight) && (navBottom > 0)){
             headerNav[i].style.color = 'var(--primary-color)';
         }else{
             headerNav[i].style.color = 'var(--white-color)';
